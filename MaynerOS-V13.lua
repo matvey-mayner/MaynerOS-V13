@@ -7,14 +7,6 @@ local gpu = component.gpu
 local computer = require("computer")
 local shell = require("shell")
 local os = require("os")
-local image = require("image")
-local ecs = require("ECSAPI")
-local buffer = require("doubleBuffering")
-local GUI = require("GUI")
-local ECSAPI = require("ECSAPI")
-local OCIF = require("OCIF")
-local advancedLua = require("advancedLua")
-local doubleBuffering = require("doubleBuffering")
 
 local buttonW = 20
 local buttonH = 1
